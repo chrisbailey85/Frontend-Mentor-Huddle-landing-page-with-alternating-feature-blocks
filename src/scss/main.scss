@@ -34,7 +34,7 @@ h2 {
   width: 100%;
   z-index: 1000;
   @media (min-width: 768px) {
-    padding: 1rem 3rem;
+    padding: 1.5rem 3rem;
   }
 
   &--btn {
@@ -97,7 +97,7 @@ h2 {
     }
     @media (min-width: 1440px) {
       width: 50%;
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
   }
   &__paragraph {
@@ -127,6 +127,7 @@ h2 {
   }
   @media (min-width: 1440px) {
     padding: 0 6rem;
+    margin-bottom: 12rem;
   }
 }
 
@@ -169,7 +170,7 @@ h2 {
   &__heading {
     margin: 1rem 0;
     @media (min-width: 1440px) {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
   &__paragraph {
@@ -177,6 +178,7 @@ h2 {
     color: colors.$grayish-blue;
     @media (min-width: 1440px) {
       width: 50ch;
+      direction: initial;
     }
   }
   @media (min-width: 768px) {
